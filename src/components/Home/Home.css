@@ -1,0 +1,44 @@
+.Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  background-color: #F4FFFD;
+}
+
+.Sentence {
+  margin: 15px 0 15px 0;
+}
+
+.Sentence h1 {
+  font-size: 2.1em;
+  margin: 0;
+}
+
+.Forms {
+}
+
+.Forms input {
+  margin: 10px 0 10px 0;
+  height: 6vh;
+  width: 90vw;
+  border: solid 1px #E1E1E1;
+}
+
+.Button {
+  margin: 15px 0 15px 0;
+  height: 6vh;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #ED254E;
+  background-color: #ED254E;
+}
+
+.Button button {
+  font-size: 2em;
+  font-weight: 700;
+  color: #fff;
+}

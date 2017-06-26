@@ -8,7 +8,7 @@ import Contact from '../../components/Contact/Contact';
 import Privacy from '../../components/Privacy/Privacy';
 import Disclaimer from '../../components/Disclaimer/Disclaimer';
 import NotFound from '../../components/NotFound/NotFound';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Route, Link, Redirect } from 'react-router-dom';
 
 class App extends Component {
   render() {
@@ -16,6 +16,9 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <Header />
+          <Route exact path='/' render={() => (
+            <Redirect to='/home'/>
+          )}/>
           <Route path='/home' component={ Home } />
           <Route path='/doctors' component={ Doctors } />
           <Route path='/about' component={ About } />

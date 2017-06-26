@@ -1,0 +1,27 @@
+.Footer {
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #011936;
+  color: #fff;
+}
+
+.Privacy-and-terms {
+
+}
+
+.Privacy-and-terms button {
+  font-size: 0.7em; 
+  color: #fff;
+  margin: 0;
+}
+
+.Color {
+  color: #ED254E;
+}

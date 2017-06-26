@@ -1,0 +1,27 @@
+.Header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  background-color: #011936;
+  color: #fff;
+}
+
+.Menu-btn {
+  padding: 15px;
+}
+
+.Pr-doctors {
+  padding: 15px;
+}
+
+.Pr-doctors h1 {
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: 900;
+}
+
+.Yellow {
+  color: #F9DC5C;
+}

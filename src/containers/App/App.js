@@ -25,7 +25,6 @@ class App extends Component {
           <Route path='/contact' component={ Contact } />
           <Route path='/privacy' component={ Privacy } />
           <Route path='/disclaimer' component={ Disclaimer } />
-          <Route path='*' component={ NotFound } />
           <Footer />
         </div>
       </BrowserRouter>

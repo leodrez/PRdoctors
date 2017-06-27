@@ -4,6 +4,7 @@
   align-items: center;
   flex-direction: column;
   height: 80vh;
+  font-family: 'Raleway', sans-serif;
   background-color: #F4FFFD;
 }
 
@@ -14,9 +15,6 @@
 .Sentence h1 {
   font-size: 2.1em;
   margin: 0;
-}
-
-.Forms {
 }
 
 .Forms input {

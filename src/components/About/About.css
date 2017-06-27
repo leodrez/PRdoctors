@@ -1,0 +1,20 @@
+.About {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+  font-family: 'Raleway', sans-serif;
+  background-color: #F4FFFD;
+}
+
+.Title {
+
+}
+
+.Title h1 {
+  font-size: 2.5em;
+}
+
+.Paragraph {
+
+}

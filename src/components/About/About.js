@@ -5,7 +5,12 @@ class About extends Component {
   render() {
     return (
       <div className='About'>
-        <h1>About</h1>
+        <div className='Title'>
+          <h1>Acerca <span className='Color'>de</span></h1>
+        </div>
+        <div className='Paragraph'>
+          <p>Acerca de PR doctors</p> 
+        </div>
       </div>
     );
   }

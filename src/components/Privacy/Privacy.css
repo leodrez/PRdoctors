@@ -1,0 +1,16 @@
+.Privacy {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+  font-family: 'Raleway', sans-serif;
+  background-color: #F4FFFD;
+}
+
+.Title {
+
+}
+
+.Paragraph {
+
+}

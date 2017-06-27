@@ -5,7 +5,12 @@ class Disclaimer extends Component {
   render() {
     return (
       <div className='Disclaimer'>
-        <h1>Disclaimer</h1>
+        <div className='Title'>
+          <h1>Disclaimer</h1>
+        </div>
+        <div className='Paragraph'>
+          <p>Paragraph</p>
+        </div>
       </div>
     );
   }

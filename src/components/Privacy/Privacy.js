@@ -5,7 +5,12 @@ class Privacy extends Component {
   render() {
     return (
       <div className='Privacy'>
-        <h1>Privacy</h1>
+        <div className='Title'>
+          <h1>Privacy</h1>
+        </div>
+        <div className='Paragraph'>
+          <p>Paragraph</p>
+        </div>
       </div>
     );
   }

@@ -8,16 +8,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #011936;
+  background-color: #CCC;
   color: #fff;
 }
 
-.Privacy-and-terms button {
+.Privacy-and-terms a {
   font-size: 0.7em; 
-  color: #fff;
+  color: #000;
   margin: 0;
-}
-
-.Color {
-  color: #ED254E;
+  text-decoration: none;
 }

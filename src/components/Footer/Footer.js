@@ -6,10 +6,9 @@ class Footer extends Component {
     return (
       <div className='Footer'>
         <div className='Privacy-and-terms'>
-          <button>
-            <span className='Color'>Privacy</span> policy and 
-            <span className='Color'> Terms</span> of use Ⓒ2017 PRdoctors
-          </button>
+          <a href="#">Privacy policy and 
+          Terms of use Ⓒ2017 PRdoctors
+          </a>
         </div>
       </div>
     );

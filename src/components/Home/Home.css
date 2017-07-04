@@ -5,7 +5,7 @@
   flex-direction: column;
   height: 80vh;
   font-family: 'Raleway', sans-serif;
-  background-color: #F4FFFD;
+  background-color: #F5F5F5;
 }
 
 .Sentence {
@@ -15,6 +15,10 @@
 .Sentence h1 {
   font-size: 2.1em;
   margin: 0;
+}
+
+.Color {
+  color: #4183C4;
 }
 
 .Forms input {
@@ -31,12 +35,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid 1px #ED254E;
-  background-color: #ED254E;
+  background-color: #F9DC5C;
 }
 
 .Button button {
   font-size: 2em;
   font-weight: 700;
   color: #fff;
+}
+
+.Submit {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: none;
 }

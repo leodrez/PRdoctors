@@ -1,13 +1,13 @@
 export const GET_ALL_DOCTORS
 
-export function getAllDoctors(text) {
+export function getAllDoctors(name) {
   return {
     type: GET_ALL_DOCTORS,
-    text
+    name
   }
 }
 
-//dispatch(getAllDoctors(text));
+//dispatch(getAllDoctors(name));
 
 // Doctor selection
 // Location selection

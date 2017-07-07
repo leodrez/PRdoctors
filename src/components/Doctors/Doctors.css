@@ -1,0 +1,8 @@
+.Doctors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #F5F5F5;
+}

@@ -13,6 +13,7 @@ import {
   Redirect, 
   Switch 
 } from 'react-router-dom';
+import './Body.css';
 
 class Body extends Component {
   render() {

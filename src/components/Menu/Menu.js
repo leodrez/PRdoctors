@@ -6,14 +6,16 @@ class Menu extends Component {
     return (
       <div className='Menu'>
         <div className='Menu-body'>
-          <button>Busqueda</button>
-          <button>Acerca de</button>
-          <button>Contactenos</button>
-          <button>Desarrollador</button>
-          <button>Disclaimer</button>
-          <button>Privacy & Terms</button>
+          <a href='#'>Busqueda</a>
+          <a href='#'>Acerca de</a>
+          <a href='#'>Contactenos</a>
+          <a href='#'>Desarrollador</a>
+          <a href='#'>Disclaimer</a>
+          <a href='#'>Privacy & Terms</a>
         </div>
       </div>
     );
   }
 }
+
+export default Menu;

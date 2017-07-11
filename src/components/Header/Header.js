@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import icon from '../../images/menu.svg'
 import './Header.css';
 
 class Header extends Component {
@@ -10,7 +9,9 @@ class Header extends Component {
           <h1><span className='Black'>PR</span> doctors</h1>
         </div>
         <div className='Menu-btn'>
-          <i className="material-icons">menu</i>
+          <button onClick={this.props._toggleMenu}>
+            <i className="material-icons">menu</i>
+          </button>
         </div>
       </div>
     );

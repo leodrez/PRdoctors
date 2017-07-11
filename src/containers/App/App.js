@@ -5,14 +5,27 @@ import Menu from '../../components/Menu/Menu';
 import Footer from '../../components/Footer/Footer';
 
 class App extends Component {
+  constructor() {
+
+    super();
+
+    this.state = { showingMenu: false };
+
+    this._toggleMenu = this._toggleMenu.bind(this);
+  }
+
   render() {
     return (
       <div className="App">
-        <Header />
-        <Body />
+        <Header _toggleMenu={ this._toggleMenu } />
+        { this.state.showingMenu ? <Menu /> : <Body /> }
         <Footer />
       </div>
     );
+  }
+
+  _toggleMenu() {
+    this.setState({ showingMenu: !this.state.showingMenu }); 
   }
 }
 

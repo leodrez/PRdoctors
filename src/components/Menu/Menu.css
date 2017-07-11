@@ -2,16 +2,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   height: 100vh;
   font-family: 'Raleway', sans-serif;
-  background-color: #F5F5F5;
 }
 
-.Menu-body {
-
+.Menu-body li {
+  list-style: none;
 }
 
 .Menu-body a {
-
+  color: #000;
+  text-decoration: none;
 }

@@ -18,7 +18,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header _toggleMenu={ this._toggleMenu } />
-        { this.state.showingMenu ? <Menu /> : <Body /> }
+        { this.state.showingMenu ? <Menu _toggleMenu={ this._toggleMenu } /> : <Body /> }
         <Footer />
       </div>
     );

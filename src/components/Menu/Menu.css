@@ -6,11 +6,28 @@
   font-family: 'Raleway', sans-serif;
 }
 
+.Menu-body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 70vh;
+  width: 90vw;
+  background-color: #F9DC5C;
+}
+
 .Menu-body li {
   list-style: none;
+  padding: 3vh 1vw;
 }
 
 .Menu-body a {
   color: #000;
   text-decoration: none;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.Menu-body ul {
+  padding: 0;
+  margin: 0;
 }

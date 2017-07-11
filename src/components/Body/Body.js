@@ -3,7 +3,6 @@ import Home from '../../components/Home/Home';
 import Doctors from '../../components/Doctors/Doctors';
 import About from '../../components/About/About';
 import Contact from '../../components/Contact/Contact';
-import Privacy from '../../components/Privacy/Privacy';
 import Disclaimer from '../../components/Disclaimer/Disclaimer';
 import NotFound from '../../components/NotFound/NotFound';
 import { 
@@ -28,7 +27,6 @@ class Body extends Component {
             <Route path='/doctors' component={ Doctors } />
             <Route path='/about' component={ About } />
             <Route path='/contact' component={ Contact } />
-            <Route path='/privacy' component={ Privacy } />
             <Route path='/disclaimer' component={ Disclaimer } />
             <Route path='*' component={ NotFound } />
           </Switch>

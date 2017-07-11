@@ -12,12 +12,12 @@ class Menu extends Component {
       <BrowserRouter>
         <div className='Menu'>
           <div className='Menu-body'>
-            <li><Link to="">Busqueda</Link></li>
-            <li><Link to="">Acerca de</Link></li>
-            <li><Link to="">Contactenos</Link></li>
-            <li><Link to="">Desarrollador</Link></li>
-            <li><Link to="">Disclaimer</Link></li>
-            <li><Link to="">Privacy & Terms</Link></li>
+            <ul>
+              <li><Link to='/home'>Busqueda</Link></li>
+              <li><Link to='/about'>Acerca de</Link></li>
+              <li><Link to='/contact'>Contactenos</Link></li>
+              <li><Link to='/disclaimer'>Disclaimer</Link></li>
+            </ul>
           </div>
         </div>
       </BrowserRouter>

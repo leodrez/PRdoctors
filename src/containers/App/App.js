@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Header from '../../components/Header/Header';
 import Body from '../../components/Body/Body';
 import Menu from '../../components/Menu/Menu';
-import Footer from '../../components/Footer/Footer';
 
 class App extends Component {
   constructor() {
@@ -26,7 +25,6 @@ class App extends Component {
       <div className="App">
         <Header _toggleMenu={ this._toggleMenu } icon={ icon } />
         { this.state.showingMenu ? <Menu _toggleMenu={ this._toggleMenu } /> : <Body /> }
-        <Footer />
       </div>
     );
   }

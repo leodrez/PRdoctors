@@ -1,0 +1,21 @@
+.SegmentedControls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.SegmentedControls button {
+  margin: 2.5px;
+  height: 6vh;
+  width: 45vw;
+  background-color: #fff;
+  border: solid 1px #ccc;
+  font-size: 1.3em;
+}
+
+.SegmentedControls button:active {
+  background-color: #F9DC5C;
+  color: #fff;
+  border: none;
+}

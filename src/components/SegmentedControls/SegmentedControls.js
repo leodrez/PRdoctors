@@ -13,19 +13,8 @@ class SegmentedControls extends Component {
   render () {
     return (
       <div className='SegmentedControls'> 
-        <form>
-          <input 
-            type='radio'
-            name='options'
-            id='speciality'
-            />
-          <input 
-            type='radio'
-            name='options'
-            id='doctor'
-            />
-          <input type='submit' value='Buscar!' />
-        </form>
+        <button>Especialidad</button>
+        <button>Doctor</button>
       </div>
     );
   }

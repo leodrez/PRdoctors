@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import DocForm from '../Forms/DocForm'
-import LocationForm from '../Forms/LocationForm'
+//import LocationForm from '../Forms/LocationForm'
 import './Home.css';
 
 class Home extends Component {
@@ -14,10 +14,6 @@ class Home extends Component {
         </div>
         <div className='Forms'>
           <DocForm />
-          <LocationForm />
-        </div>
-        <div className='Button'>
-          <button className='Submit'>Buscar!</button>
         </div>
       </div>
     );

@@ -1,0 +1,8 @@
+.DocForm {
+  display: flex;
+}
+
+.input {
+  justify-content: center;
+  align-items: center;
+}

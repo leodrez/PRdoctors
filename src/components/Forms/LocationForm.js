@@ -10,7 +10,6 @@ class LocationForm extends Component {
       <form>
         <lable>
           <input type='text'>
-          
           </input>
         </lable>
       </form>
@@ -19,3 +18,6 @@ class LocationForm extends Component {
 }
 
 export default LocationForm;
+
+// This component should do a search based on users
+// location. Showing near doctors

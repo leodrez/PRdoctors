@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './DocForm.css';
 
 class DocForm extends Component {
   constructor (props) {
@@ -7,13 +8,15 @@ class DocForm extends Component {
 
   render () {
     return (
-      <form>
-        <lable>
-          <input type='text'>
-          
-          </input>
-        </lable>
-      </form>
+    <div className='DocForm'>
+        <form>
+          <lable>
+            Doctor:
+            <input type='text' />
+          </lable>
+            <input type='submit' value='Submit' />
+        </form>
+      </div>
     ); 
   }
 }

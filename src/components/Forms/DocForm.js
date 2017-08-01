@@ -4,17 +4,18 @@ import './DocForm.css';
 class DocForm extends Component {
   constructor (props) {
     super (props); 
+
+    this.state = { value: '' };
   }
 
   render () {
     return (
-    <div className='DocForm'>
+      <div className='DocForm'>
         <form>
           <lable>
-            Doctor:
-            <input type='text' />
+            <input type='text' value='Search' />
           </lable>
-            <input type='submit' value='Submit' />
+          <input type='submit' value='Submit' />
         </form>
       </div>
     ); 

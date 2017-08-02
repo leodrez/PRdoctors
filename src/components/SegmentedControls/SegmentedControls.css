@@ -2,10 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.Control-btns {
   flex-direction: row;
 }
 
-.SegmentedControls button {
+.Control-btns button {
   margin: 0.3em;
   height: 7vh;
   width: 45vw;

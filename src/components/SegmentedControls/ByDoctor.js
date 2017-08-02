@@ -2,12 +2,29 @@ import React, { Component } from 'react';
 import './ByDoctor.css';
 
 class ByDoctor extends Component {
+  constructor(props) {
+    super(props); 
+
+    this.state = {
+      search: '' 
+    };
+
+    this._updateSearch = this._updateSearch.bind(this);
+  }
+
   render() {
     return (
       <div className='ByDoctor'>
-        <h1>By Doctor</h1>
+        <input type='text' 
+          value={ this.state.search }
+          onChange={ this._updateSearch } 
+        />
       </div>
     ); 
+  }
+
+  _updateSearch(event) {
+    this.setState({ search: event.target.value });
   }
 }
 

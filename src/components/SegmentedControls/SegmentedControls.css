@@ -6,16 +6,17 @@
 }
 
 .SegmentedControls button {
-  margin: 2.5px;
-  height: 6vh;
+  margin: 0.3em;
+  height: 7vh;
   width: 45vw;
-  background-color: #fff;
-  border: solid 1px #ccc;
+  background-color: #f9dc5c;
+  border: solid 1px #f9dc5c;
+  border-radius: 100px;
   font-size: 1.3em;
 }
 
 .SegmentedControls button:active {
-  background-color: #F9DC5C;
+  background-color: #F9DC5D;
   color: #fff;
   border: none;
 }

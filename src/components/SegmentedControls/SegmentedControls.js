@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './SegmentedControls.css';
+import BySpecialty from '../../components/SegmentedControls/BySpecialty';
+import ByDoctor from '../../components/SegmentedControls/ByDoctor';
 
 class SegmentedControls extends Component {
   constructor(props) {
@@ -17,8 +19,14 @@ class SegmentedControls extends Component {
   render () {
     return (
       <div className='SegmentedControls'> 
-        <button onClick={ this._toggleSpecialty }>Especialidad</button>
-        <button onClick={ this._toggleDoctor }>Doctor</button>
+        <div className='Control-btns'>
+          <button onClick={ this._toggleSpecialty }>Especialidad</button>
+          <button onClick={ this._toggleDoctor }>Doctor</button>
+        </div>
+        <div className='Searches'>
+          { this.state.specialtyOn ? <BySpecialty /> : null }
+          { this.state.doctorOn ? <ByDoctor /> : null }
+        </div>
       </div>
     );
   }

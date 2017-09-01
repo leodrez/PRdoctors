@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './ByDoctor.css';
 
 class ByDoctor extends Component {
   constructor(props) {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './SegmentedControls.css';
-import BySpecialty from '../../components/SegmentedControls/BySpecialty';
-import ByDoctor from '../../components/SegmentedControls/ByDoctor';
+
+import BySpecialty from './BySpecialty.js';
+import ByDoctor from './ByDoctor';
 
 class SegmentedControls extends Component {
   constructor(props) {

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './BySpecialty.css';
 
 class BySpecialty extends Component {
   constructor(props) {

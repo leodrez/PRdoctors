@@ -1,0 +1,51 @@
+.Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Raleway', sans-serif;
+}
+
+.Sentence {
+  margin: 15px 0 15px 0;
+}
+
+.Sentence h1 {
+  font-size: 2.2em;
+  margin: 0;
+}
+
+.Color {
+  color: #4183C4;
+}
+
+.Forms input {
+  margin: 10px 0 10px 0;
+  height: 6vh;
+  width: 90vw;
+  border: solid 1px #E1E1E1;
+}
+
+.Button {
+  margin: 15px 0 15px 0;
+  height: 6vh;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F9DC5C;
+}
+
+.Button button {
+  font-size: 2em;
+  font-weight: 700;
+  color: #fff;
+}
+
+.Submit {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+}
